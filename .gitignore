@@ -1,0 +1,15 @@
+*.suo
+*.user
+*.userprefs
+.DS_Store
+_ReSharper.*
+bin
+obj
+*/packages/
+!*/packages/packages.config
+!*/packages/repositories.config
+*/Components/
+*/.idea/workspace.xml
+*/.idea/tasks.xml
+*/test_servers/
+Calababash/index.html

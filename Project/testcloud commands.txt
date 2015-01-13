@@ -1,0 +1,8 @@
+Xamarin.UITest
+Android:
+packages\Xamarin.UITest.0.6.8\tools\test-cloud.exe submit CreditCardValidation.Droid\bin\Release\CreditCardValidation.Droid-Signed.apk {yourapikey} --devices 16b388ba --series "master" --locale "en_US" --app-name "Validate Credit Card" --assembly-dir CardValidation.UITest.Android\bin\Debug
+iOS:
+packages\Xamarin.UITest.0.6.8\tools\test-cloud.exe submit yourAppFile.ipa {yourapikey} --devices d070b0d2 --series "master" --locale "en_US" --app-name "Validate Credit Card" --assembly-dir pathToTestDllFolder
+
+Calabash Android
+test-cloud submit CreditCardValidation.Droid\bin\Release\CreditCardValidation.Droid-Signed.apk {yourapikey} -p android --devices 53a8b174 --series "master" --locale "en_US" --app-name "Validate Credit Card" --config=config\cucumber.yml
